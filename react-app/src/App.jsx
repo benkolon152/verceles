@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <h1>Neaon cats</h1>
+      <h1>Neon cats</h1>
       <div className="card">
         <Cats/>
       </div>
