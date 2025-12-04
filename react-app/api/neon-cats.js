@@ -10,5 +10,15 @@ export default async function handler(req, res){
         return res.status(200).json(result)
     }
 
-    return res.status(200).json('neon-cats endpiont works :3')
+    if (req.method == 'POST'){
+        //TODO - implement Post
+    }
+    if (req.method == 'PATCH'){
+        //TODO - implement PATCH
+    }
+    if (req.method == 'DELETE'){
+        //TODO - implement DELETE
+    }
+
+    return res.status(500).json([{error: 'Skill issue :3'}])
 }
